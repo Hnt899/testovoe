@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ГЭНДАЛЬФ — Карьера</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__overlay"></div>
+        <img
+          src="assets/hero-bg.svg"
+          alt="Команда сотрудников за работой"
+          class="hero__background"
+          loading="lazy"
+        />
+        <div class="hero__content container">
+          <span class="hero__badge">Карьера в IT-компании</span>
+          <h1 class="hero__title">Добро пожаловать в ГЭНДАЛЬФ!</h1>
+          <p class="hero__subtitle">
+            Помогаем талантам реализовывать амбициозные проекты в дружной команде.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#values">Почему мы</a>
+            <a class="button button--secondary" href="#application"
+              >Записаться на собеседование</a
+            >
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section section--gradient" id="values">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Наши преимущества</h2>
+              <p class="section__subtitle">
+                Преимущества, которые делают ГЭНДАЛЬФ местом, где хочется расти.
+              </p>
+            </div>
+            <div class="slider slider--values" data-slider="values">
+              <button
+                class="slider__control slider__control--prev"
+                type="button"
+                aria-label="Предыдущий слайд"
+              ></button>
+              <div class="slider__viewport">
+                <div class="slider__track">
+                  <article class="value-card slider__slide">
+                    <img
+                      src="assets/value-mentors.svg"
+                      alt="Менторство"
+                      class="value-card__image"
+                      loading="lazy"
+                    />
+                    <h3 class="value-card__title">Менторство и развитие</h3>
+                    <p class="value-card__text">
+                      Индивидуальные планы развития, курсы и внутренняя школа для
+                      прокачки навыков.
+                    </p>
+                  </article>
+                  <article class="value-card slider__slide">
+                    <img
+                      src="assets/value-flex.svg"
+                      alt="Гибкий график"
+                      class="value-card__image"
+                      loading="lazy"
+                    />
+                    <h3 class="value-card__title">Гибкий формат работы</h3>
+                    <p class="value-card__text">
+                      Офис, стажировка или удалёнка — выбирайте то, что подходит вам.
+                    </p>
+                  </article>
+                  <article class="value-card slider__slide">
+                    <img
+                      src="assets/value-team.svg"
+                      alt="Командная работа"
+                      class="value-card__image"
+                      loading="lazy"
+                    />
+                    <h3 class="value-card__title">Команда единомышленников</h3>
+                    <p class="value-card__text">
+                      Дружелюбная атмосфера, открытость и поддержка коллег на каждом
+                      этапе.
+                    </p>
+                  </article>
+                  <article class="value-card slider__slide">
+                    <img
+                      src="assets/value-innovation.svg"
+                      alt="Инновации"
+                      class="value-card__image"
+                      loading="lazy"
+                    />
+                    <h3 class="value-card__title">Современные технологии</h3>
+                    <p class="value-card__text">
+                      Работаем с актуальным стеком и внедряем инновации вместе с вами.
+                    </p>
+                  </article>
+                  <article class="value-card slider__slide">
+                    <img
+                      src="assets/value-care.svg"
+                      alt="Забота"
+                      class="value-card__image"
+                      loading="lazy"
+                    />
+                    <h3 class="value-card__title">Забота о команде</h3>
+                    <p class="value-card__text">
+                      Медицинская страховка, занятия спортом и корпоративные мероприятия.
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <button
+                class="slider__control slider__control--next"
+                type="button"
+                aria-label="Следующий слайд"
+              ></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="feed">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Живая лента</h2>
+              <p class="section__subtitle">
+                Новости и события компании: истории сотрудников, отчёты с митапов,
+                рекомендации по развитию.
+              </p>
+            </div>
+            <div class="slider slider--feed" data-slider="feed">
+              <button
+                class="slider__control slider__control--prev"
+                type="button"
+                aria-label="Предыдущий слайд"
+              ></button>
+              <div class="slider__viewport">
+                <div class="slider__track">
+                  <article class="feed-card slider__slide">
+                    <img
+                      src="assets/feed-1.svg"
+                      alt="Командный митап"
+                      class="feed-card__image"
+                      loading="lazy"
+                    />
+                    <div class="feed-card__body">
+                      <h3 class="feed-card__title">Как прошёл весенний митап</h3>
+                      <button class="button button--ghost" type="button">
+                        Перейти к статье
+                      </button>
+                    </div>
+                  </article>
+                  <article class="feed-card slider__slide">
+                    <img
+                      src="assets/feed-2.svg"
+                      alt="Интервью со стажёром"
+                      class="feed-card__image"
+                      loading="lazy"
+                    />
+                    <div class="feed-card__body">
+                      <h3 class="feed-card__title">Интервью с новым стажёром</h3>
+                      <button class="button button--ghost" type="button">
+                        Перейти к статье
+                      </button>
+                    </div>
+                  </article>
+                  <article class="feed-card slider__slide">
+                    <img
+                      src="assets/feed-3.svg"
+                      alt="Проектная команда"
+                      class="feed-card__image"
+                      loading="lazy"
+                    />
+                    <div class="feed-card__body">
+                      <h3 class="feed-card__title">Запуск нового продукта</h3>
+                      <button class="button button--ghost" type="button">
+                        Перейти к статье
+                      </button>
+                    </div>
+                  </article>
+                  <article class="feed-card slider__slide">
+                    <img
+                      src="assets/feed-4.svg"
+                      alt="Онлайн обучение"
+                      class="feed-card__image"
+                      loading="lazy"
+                    />
+                    <div class="feed-card__body">
+                      <h3 class="feed-card__title">5 курсов по развитию Soft Skills</h3>
+                      <button class="button button--ghost" type="button">
+                        Перейти к статье
+                      </button>
+                    </div>
+                  </article>
+                  <article class="feed-card slider__slide">
+                    <img
+                      src="assets/feed-5.svg"
+                      alt="Корпоратив"
+                      class="feed-card__image"
+                      loading="lazy"
+                    />
+                    <div class="feed-card__body">
+                      <h3 class="feed-card__title">Бэкстейдж с корпоративной вечеринки</h3>
+                      <button class="button button--ghost" type="button">
+                        Перейти к статье
+                      </button>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <button
+                class="slider__control slider__control--next"
+                type="button"
+                aria-label="Следующий слайд"
+              ></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--accent" id="application">
+          <div class="container">
+            <div class="section__header section__header--center">
+              <h2 class="section__title">Записаться на собеседование</h2>
+              <p class="section__subtitle">
+                Заполните форму — мы свяжемся с вами в течение двух рабочих дней.
+              </p>
+            </div>
+            <form class="form" novalidate>
+              <div class="form__grid">
+                <div class="form-field">
+                  <label class="form-field__label" for="name">ФИО*</label>
+                  <input
+                    class="form-field__input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    minlength="2"
+                    autocomplete="name"
+                    placeholder="Иванов Иван"
+                  />
+                  <p class="form-field__error" id="name-error" aria-live="polite"></p>
+                </div>
+
+                <div class="form-field form-field--with-status">
+                  <label class="form-field__label" for="phone">Телефон*</label>
+                  <div class="form-field__input-wrapper">
+                    <input
+                      class="form-field__input"
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      required
+                      inputmode="tel"
+                      placeholder="+7 (___) ___-__-__"
+                      aria-describedby="phone-error"
+                    />
+                    <span class="form-field__status" aria-hidden="true"></span>
+                  </div>
+                  <p class="form-field__error" id="phone-error" aria-live="polite"></p>
+                </div>
+
+                <div class="form-field form-field--with-status">
+                  <label class="form-field__label" for="email">Email*</label>
+                  <div class="form-field__input-wrapper">
+                    <input
+                      class="form-field__input"
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      autocomplete="email"
+                      placeholder="name@example.com"
+                      aria-describedby="email-error"
+                    />
+                    <span class="form-field__status" aria-hidden="true"></span>
+                  </div>
+                  <p class="form-field__error" id="email-error" aria-live="polite"></p>
+                </div>
+
+                <div class="form-field">
+                  <label class="form-field__label" for="position">Желаемая позиция</label>
+                  <input
+                    class="form-field__input"
+                    type="text"
+                    id="position"
+                    name="position"
+                    minlength="2"
+                    placeholder="Например, Frontend-разработчик"
+                  />
+                  <p class="form-field__error" id="position-error" aria-live="polite"></p>
+                </div>
+              </div>
+
+              <fieldset class="form-field form-field--fieldset">
+                <legend class="form-field__label">Формат занятости*</legend>
+                <div class="form-field__radios">
+                  <label class="radio">
+                    <input type="radio" name="employment" value="office" required />
+                    <span>Офис</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="employment" value="internship" required />
+                    <span>Стажировка</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="employment" value="remote" required />
+                    <span>Удалёнка</span>
+                  </label>
+                </div>
+                <p class="form-field__error" id="employment-error" aria-live="polite"></p>
+              </fieldset>
+
+              <div class="form-field">
+                <label class="form-field__label" for="questions">
+                  Вопросы
+                  <span class="form-field__counter" data-counter>Осталось 500</span>
+                </label>
+                <textarea
+                  class="form-field__textarea"
+                  id="questions"
+                  name="questions"
+                  maxlength="500"
+                  rows="4"
+                  placeholder="Чем вы хотите заниматься в нашей команде?"
+                ></textarea>
+                <p class="form-field__error" id="questions-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-field form-field--file" data-file-upload>
+                <span class="form-field__label">Резюме</span>
+                <div class="file-upload" tabindex="0">
+                  <input
+                    class="file-upload__input"
+                    type="file"
+                    id="resume"
+                    name="resume"
+                    accept=".pdf,.doc,.docx"
+                    aria-describedby="resume-error"
+                  />
+                  <div class="file-upload__body">
+                    <span class="file-upload__icon" aria-hidden="true"></span>
+                    <div class="file-upload__text">
+                      <strong>Перетащите файл сюда</strong>
+                      <span>или нажмите, чтобы выбрать (PDF/DOC до 5МБ)</span>
+                    </div>
+                    <button class="button button--ghost" type="button" data-file-trigger>
+                      Выбрать файл
+                    </button>
+                  </div>
+                </div>
+                <div class="file-upload__preview" aria-live="polite"></div>
+                <p class="form-field__error" id="resume-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form__actions">
+                <button class="button button--primary" type="submit" disabled>
+                  <span class="button__spinner" aria-hidden="true"></span>
+                  <span>Отправить заявку</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
